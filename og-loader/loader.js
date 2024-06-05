@@ -10,7 +10,6 @@ class OGLoader extends HTMLElement {
 
     constructor() {
         super();
-        console.log("component", this)
 
         /*Attaching a shadow dom to the component*/
         this.attachShadow({ mode: 'open' })
